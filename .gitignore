@@ -1,0 +1,23 @@
+# Compiled binaries and object files
+build/
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Database data files (Very important to ignore so we don't commit test databases!)
+data/
+*.db
+*.log
+*.sst
+*.idx
+*.wal
+
+# IDE and System configurations
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
